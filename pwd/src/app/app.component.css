@@ -1,0 +1,25 @@
+.state {
+  margin-top: 10px;
+  width: 321px;
+  height: 20px;
+  border: 1px solid #ccc;
+  display: flex;
+}
+
+.state > div {
+  flex-grow: 1;
+}
+.state > div:not(:last-child) {
+  border-right: 1px solid black;
+}
+
+.pwd-field{
+  height: 20px;
+  max-width: 180px;
+  border-radius: 8px;
+}
+
+.show-btn{
+  padding: 3px;
+  border-radius: 8px;
+}
